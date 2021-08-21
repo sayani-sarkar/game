@@ -1,0 +1,26 @@
+.main{
+  display:flex;
+  width:100%;
+  height:50vh;
+  justify-content:center;
+  align-items:center;
+  
+  color:white;
+}
+
+/* just add multiple large, coloured text shadows with an increasing blur radius :D */
+.neon{
+  font-family:Pacifico;
+  font-weight:lighter;
+  text-shadow:
+    0 0 7px hotpink,
+    0 0 10px hotpink,
+    0 0 20px hotpink,
+    0 0 50px hotpink,
+    0 0 70px hotpink,
+    0 0 100px hotpink,
+    0 0 120px hotpink,
+    0 0 157px hotpink;
+  text-align:center;  
+}
+
